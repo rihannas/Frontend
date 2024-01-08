@@ -1,6 +1,7 @@
 import { ProductCard } from "../components/ProductCard";
 
-const Products = () => {
+// eslint-disable-next-line react/prop-types
+const Products = ({ cart, setCart }) => {
 	const toner = {
 		title: "Omelette",
 		desc: "Egg toner for oil control",
@@ -21,12 +22,13 @@ const Products = () => {
 
 	return (
 		<>
-			{products.map((product, idx) => {
+			{products.map((product) => {
 				return (
 					<>
 						<ProductCard
 							product={product}
-							key={idx}
+							cart={cart}
+							setCart={setCart}
 						/>
 					</>
 				);
