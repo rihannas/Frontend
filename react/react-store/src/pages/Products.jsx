@@ -1,3 +1,5 @@
+import { ProductCard } from "../components/ProductCard";
+
 const Products = () => {
 	const toner = {
 		title: "Omelette",
@@ -19,14 +21,13 @@ const Products = () => {
 
 	return (
 		<>
-			<h1>Best Selling Products</h1>
-			{products.map((product) => {
+			{products.map((product, idx) => {
 				return (
 					<>
-						<h2>{product.title}</h2>
-						<p>{product.desc}</p>
-						<button>{product.price}</button>
-						<button>Add To Cart</button>
+						<ProductCard
+							product={product}
+							key={idx}
+						/>
 					</>
 				);
 			})}
