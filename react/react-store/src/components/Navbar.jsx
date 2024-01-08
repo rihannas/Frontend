@@ -16,6 +16,10 @@ const Navbar = () => {
 			<Link to="/contact">
 				<button>Contact</button>
 			</Link>
+
+			<Link to="/cart">
+				<button>Cart</button>
+			</Link>
 		</div>
 	);
 };

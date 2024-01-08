@@ -6,7 +6,7 @@ import { About } from "./pages/About";
 import { Home } from "./pages/Home";
 import { Products } from "./pages/Products";
 import { Contact } from "./pages/Contact";
-
+import Cart from "./pages/Cart";
 function App() {
 	return (
 		<>
@@ -28,6 +28,10 @@ function App() {
 						<Route
 							path="/contact"
 							element={<Contact />}
+						/>
+						<Route
+							path="/cart"
+							element={<Cart />}
 						/>
 					</Route>
 				</Routes>

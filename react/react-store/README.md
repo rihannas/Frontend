@@ -14,8 +14,8 @@
    `npm i react-router-dom`. Then import BrowserRouter, Routes, Route.
 6. Inside the layout component add the navbar component and also <Outlet/> component from react-router-dom. Read what outlet does in the layout component.
 7. Update the navbar comp by adding links to the routes we creates in the app comp.
-
 8. Update the products comp, by adding products. You can render the products there but the proper way to do it is by creating a Product card comp where the products are rendered there. And the Product card comp is rendered in the Product page comp.
+9. Create the cart comp and add a route for it in the app comp and add a button for it the navbar
 
 # React + Vite
 
