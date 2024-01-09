@@ -32,6 +32,8 @@ This can also lead to nested component dependency which means -> If a grandchild
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+13. Add a remove button cart functionality in the cart, by using an event handler.
+
 Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
