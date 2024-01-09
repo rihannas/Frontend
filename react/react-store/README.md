@@ -32,7 +32,7 @@ This can also lead to nested component dependency which means -> If a grandchild
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-13. Add a remove button cart functionality in the cart, by using an event handler.
+13. Add a remove from cart functionality in the cart, by using an event handler.
 
 Currently, two official plugins are available:
 
