@@ -34,6 +34,8 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 13. Add a remove from cart functionality in the cart, by using an event handler.
 
+14. Update contact page about us page
+
 Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
