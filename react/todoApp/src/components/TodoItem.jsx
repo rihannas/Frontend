@@ -1,10 +1,15 @@
 /* eslint-disable react/prop-types */
+
 const TodoItem = ({ todo, handleCheckbox, handleDelTodo }) => {
+  //componet for indiviual Item
+
   function handleCheckboxClick() {
+    //event handler that calls an event handler from parent to handle checked todos
     handleCheckbox(todo.todo);
   }
 
   function handleDelClik() {
+    //event handler that calls an event handler from parent to handle deleting todos
     handleDelTodo(todo.todo);
   }
 
