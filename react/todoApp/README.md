@@ -27,4 +27,4 @@ A component that renders a form for the user to add new todos. The even is by ha
 
 ##### Screenshot
 
-- ![screenshot](image.png)
+![screenshot](image.png)
