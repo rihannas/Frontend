@@ -1,4 +1,4 @@
-# Frontend
+# Frontend Projects
 
 This repo holds all the notes and project I made while learning from tutorials and books. So like a note book, but as a repo
 
